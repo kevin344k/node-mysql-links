@@ -1,0 +1,44 @@
+<div class="container p-4">
+  <div class="row">
+    <div class="col-md-4 mx-auto">
+      <div class="card">
+        <div class="card-body">
+          <form action="/links/edit/{{link.id}} " method="post">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                value="{{link.title}}"
+                class="form-control"
+                name="title"
+                placeholder="Title"
+                autofocus
+              />
+            </div>
+            <div class="input-group mb-3">
+              <input
+                type="url"
+                value=" {{link.url}} "
+                name="url"
+                class="form-control"
+                placeholder="url"
+              />
+            </div>
+            <div class="input-group mb-3">
+              <textarea
+                name="decription"
+                id=""
+                class="form-control"
+                rows="2"
+                placeholder="decription"
+              >{{link.decription}}</textarea>
+            </div>
+            <div class="d-grid gap-2 mb-3">
+              <button class="btn btn-success btn-lg">Save</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
