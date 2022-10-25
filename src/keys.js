@@ -2,10 +2,10 @@ module.exports={
 
 database:{
 
-    host:'localhost',
-    user:'root',
-    password:'#Tonicorp123456',
-    database:'database_links'
+    host:'byi1c3epxwudo68wuayj-mysql.services.clever-cloud.com',
+    user:'uqhf5ggzfrozuklv',
+    password:'zxBg58arq4ABcZMRUgLZ',
+    database:'byi1c3epxwudo68wuayj'
 }
 
 }
